@@ -1,0 +1,29 @@
+package com.frex.quizify;
+
+public class QuestionAnswer {
+
+    public static String question[] ={
+            "Who invented C language?",
+            "What is the full form of XML?",
+            "Which company owns the android?",
+            "Which one is not the programming language?",
+            "Which company owns the Apple?"
+    };
+
+    public static String choices[][] = {
+            {"Don't know","Dennis Ritchie","Issac Newton","Aryabhatta"},
+            {"XM language","Extensible Markup Language","NA","XML"},
+            {"Google","Apple","Nokia","Samsung"},
+            {"Java","Kotlin","Notepad","Python"},
+            {"Google","Apple","Nokia","Samsung"}
+    };
+
+    public static String correctAnswers[] = {
+            "Dennis Ritchie",
+            "Extensible Markup Language",
+            "Google",
+            "Notepad",
+            "Apple"
+    };
+
+}
